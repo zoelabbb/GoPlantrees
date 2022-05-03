@@ -1,4 +1,4 @@
-# Simple Calculator
+# Go-Plantrees Landing Pages
 
 I made this simple landing pages just using HTML and CSS, you can try it for free !!
 
