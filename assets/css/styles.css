@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  padding: 20px;
+  justify-content: space-around !important;
+}
+
+header .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+header h1 {
+  padding-top: 10px;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+header h1 span {
+  color: rgba(8, 205, 8);
+}
+
+header ul {
+  margin-top: 10px;
+}
+
+header ul li {
+  padding: 5px 20px;
+  margin: 10px;
+  transition: all 0.5s;
+}
+
+header ul li a {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.705);
+  font-weight: 600;
+  transition: color ease-out 0.6s;
+}
+
+header ul li a:hover {
+  color: greenyellow;
+}
+
+header input {
+  padding: 8px 20px;
+  background-color: rgba(9, 209, 9);
+  color: white;
+  font-weight: 800;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+
+header input:hover {
+  transform: scale(1.09);
+  background-color: rgba(9, 209, 9, 0.683);
+}
+
+.container .content {
+  width: 100%;
+  height: 90%;
+}
+
+.content .one {
+  width: 60%;
+  padding: 0 100px;
+}
