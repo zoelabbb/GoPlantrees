@@ -93,3 +93,59 @@ header input:hover {
   width: 60%;
   padding: 0 100px;
 }
+
+.content .one h1 {
+  font-size: 60px;
+}
+
+.content .one img {
+  width: 50px;
+  height: 50px;
+  margin-top: 8px;
+  margin-left: -10px;
+}
+
+.content .one p {
+  font-size: 16px;
+  padding: 10px 0;
+  color: rgba(0, 0, 0, 0.728);
+}
+
+.content input {
+  padding: 10px 20px;
+  background-color: rgba(9, 209, 9);
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+
+.content input:hover {
+  transform: scale(1.09);
+  background-color: rgba(9, 209, 9, 0.683);
+}
+
+.content .input2 {
+  margin-left: 15px;
+}
+
+.content .two {
+  width: 40%;
+  position: relative;
+}
+
+.content .two .main {
+  margin-top: -100px;
+}
+
+.content .two .toy {
+  position: absolute;
+  width: 370px;
+  left: 70px;
+  top: 90px;
+}
