@@ -7,4 +7,4 @@ Created with CodeSandbox.
 
 ## Screenshots Apps
 
-![App Screenshot](https://github.com/zoelabbb/simple-landingpages/blob/master/assets/img/ss/goplantrees.png)
+![App Screenshot](https://github.com/zoelabbb/simple-landingpages/blob/master/assets/img/ss/gocapture.png)
